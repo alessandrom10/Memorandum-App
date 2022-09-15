@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9A11F9E428C9FF0900B832EA /* MDAddress+Annotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A11F9E328C9FF0900B832EA /* MDAddress+Annotation.m */; };
+		9A18CE8C28C9FBF30053A3AD /* MDAddress.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A18CE8B28C9FBF30053A3AD /* MDAddress.m */; };
+		9A2FF4E128C88D2F00B7011B /* AddMemorandumTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A2FF4E028C88D2F00B7011B /* AddMemorandumTableViewController.m */; };
+		9A2FF4E428C8A1B300B7011B /* UpdateMemorandumTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A2FF4E328C8A1B300B7011B /* UpdateMemorandumTableViewController.m */; };
 		9A67219728C5020800C48D6E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A67219628C5020800C48D6E /* AppDelegate.m */; };
 		9A67219A28C5020800C48D6E /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A67219928C5020800C48D6E /* SceneDelegate.m */; };
 		9A67219D28C5020800C48D6E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A67219C28C5020800C48D6E /* ViewController.m */; };
@@ -17,6 +21,11 @@
 		9A6721B228C5020A00C48D6E /* MemorandumTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A6721B128C5020A00C48D6E /* MemorandumTests.m */; };
 		9A6721BC28C5020A00C48D6E /* MemorandumUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A6721BB28C5020A00C48D6E /* MemorandumUITests.m */; };
 		9A6721BE28C5020A00C48D6E /* MemorandumUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A6721BD28C5020A00C48D6E /* MemorandumUITestsLaunchTests.m */; };
+		9A6721CD28C513DD00C48D6E /* MDMemorandum.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A6721CC28C513DD00C48D6E /* MDMemorandum.m */; };
+		9A6721D328C51E1400C48D6E /* MDListOfMemorandums.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A6721D228C51E1400C48D6E /* MDListOfMemorandums.m */; };
+		9A799DFC28C733000018AA73 /* MainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A799DFB28C733000018AA73 /* MainTableViewController.m */; };
+		9AFD509A28C9C8BA0062F1D9 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AFD509928C9C8BA0062F1D9 /* CoreLocation.framework */; };
+		9AFD50A228C9E9F30062F1D9 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AFD50A128C9E9F30062F1D9 /* MapViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +46,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9A11F9E228C9FF0900B832EA /* MDAddress+Annotation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MDAddress+Annotation.h"; sourceTree = "<group>"; };
+		9A11F9E328C9FF0900B832EA /* MDAddress+Annotation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "MDAddress+Annotation.m"; sourceTree = "<group>"; };
+		9A18CE8A28C9FBF30053A3AD /* MDAddress.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDAddress.h; sourceTree = "<group>"; };
+		9A18CE8B28C9FBF30053A3AD /* MDAddress.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDAddress.m; sourceTree = "<group>"; };
+		9A2FF4DF28C88D2F00B7011B /* AddMemorandumTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddMemorandumTableViewController.h; sourceTree = "<group>"; };
+		9A2FF4E028C88D2F00B7011B /* AddMemorandumTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddMemorandumTableViewController.m; sourceTree = "<group>"; };
+		9A2FF4E228C8A1B300B7011B /* UpdateMemorandumTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UpdateMemorandumTableViewController.h; sourceTree = "<group>"; };
+		9A2FF4E328C8A1B300B7011B /* UpdateMemorandumTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UpdateMemorandumTableViewController.m; sourceTree = "<group>"; };
 		9A67219228C5020800C48D6E /* Memorandum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Memorandum.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A67219528C5020800C48D6E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9A67219628C5020800C48D6E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -54,6 +71,17 @@
 		9A6721B728C5020A00C48D6E /* MemorandumUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MemorandumUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A6721BB28C5020A00C48D6E /* MemorandumUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MemorandumUITests.m; sourceTree = "<group>"; };
 		9A6721BD28C5020A00C48D6E /* MemorandumUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MemorandumUITestsLaunchTests.m; sourceTree = "<group>"; };
+		9A6721CB28C513DD00C48D6E /* MDMemorandum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDMemorandum.h; sourceTree = "<group>"; };
+		9A6721CC28C513DD00C48D6E /* MDMemorandum.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDMemorandum.m; sourceTree = "<group>"; };
+		9A6721D128C51E1400C48D6E /* MDListOfMemorandums.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDListOfMemorandums.h; sourceTree = "<group>"; };
+		9A6721D228C51E1400C48D6E /* MDListOfMemorandums.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDListOfMemorandums.m; sourceTree = "<group>"; };
+		9A799DFA28C733000018AA73 /* MainTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainTableViewController.h; sourceTree = "<group>"; };
+		9A799DFB28C733000018AA73 /* MainTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainTableViewController.m; sourceTree = "<group>"; };
+		9AF7381D28CC77EF006D9099 /* viaGalvani.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = viaGalvani.gpx; sourceTree = "<group>"; };
+		9AFD509928C9C8BA0062F1D9 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		9AFD509F28C9E2B70062F1D9 /* Parma.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Parma.gpx; sourceTree = "<group>"; };
+		9AFD50A028C9E9F30062F1D9 /* MapViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		9AFD50A128C9E9F30062F1D9 /* MapViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +89,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9AFD509A28C9C8BA0062F1D9 /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,6 +117,7 @@
 				9A6721B028C5020A00C48D6E /* MemorandumTests */,
 				9A6721BA28C5020A00C48D6E /* MemorandumUITests */,
 				9A67219328C5020800C48D6E /* Products */,
+				9AFD509828C9C8BA0062F1D9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,6 +134,7 @@
 		9A67219428C5020800C48D6E /* Memorandum */ = {
 			isa = PBXGroup;
 			children = (
+				9A6721CA28C513BC00C48D6E /* Model */,
 				9A67219528C5020800C48D6E /* AppDelegate.h */,
 				9A67219628C5020800C48D6E /* AppDelegate.m */,
 				9A67219828C5020800C48D6E /* SceneDelegate.h */,
@@ -115,6 +146,18 @@
 				9A6721A328C5020A00C48D6E /* LaunchScreen.storyboard */,
 				9A6721A628C5020A00C48D6E /* Info.plist */,
 				9A6721A728C5020A00C48D6E /* main.m */,
+				9A799DFA28C733000018AA73 /* MainTableViewController.h */,
+				9A799DFB28C733000018AA73 /* MainTableViewController.m */,
+				9A2FF4DF28C88D2F00B7011B /* AddMemorandumTableViewController.h */,
+				9A2FF4E028C88D2F00B7011B /* AddMemorandumTableViewController.m */,
+				9A2FF4E228C8A1B300B7011B /* UpdateMemorandumTableViewController.h */,
+				9A2FF4E328C8A1B300B7011B /* UpdateMemorandumTableViewController.m */,
+				9AFD509F28C9E2B70062F1D9 /* Parma.gpx */,
+				9AFD50A028C9E9F30062F1D9 /* MapViewController.h */,
+				9AFD50A128C9E9F30062F1D9 /* MapViewController.m */,
+				9A11F9E228C9FF0900B832EA /* MDAddress+Annotation.h */,
+				9A11F9E328C9FF0900B832EA /* MDAddress+Annotation.m */,
+				9AF7381D28CC77EF006D9099 /* viaGalvani.gpx */,
 			);
 			path = Memorandum;
 			sourceTree = "<group>";
@@ -134,6 +177,27 @@
 				9A6721BD28C5020A00C48D6E /* MemorandumUITestsLaunchTests.m */,
 			);
 			path = MemorandumUITests;
+			sourceTree = "<group>";
+		};
+		9A6721CA28C513BC00C48D6E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9A6721CB28C513DD00C48D6E /* MDMemorandum.h */,
+				9A6721CC28C513DD00C48D6E /* MDMemorandum.m */,
+				9A6721D128C51E1400C48D6E /* MDListOfMemorandums.h */,
+				9A6721D228C51E1400C48D6E /* MDListOfMemorandums.m */,
+				9A18CE8A28C9FBF30053A3AD /* MDAddress.h */,
+				9A18CE8B28C9FBF30053A3AD /* MDAddress.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9AFD509828C9C8BA0062F1D9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9AFD509928C9C8BA0062F1D9 /* CoreLocation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -267,9 +331,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				9A67219D28C5020800C48D6E /* ViewController.m in Sources */,
+				9A6721CD28C513DD00C48D6E /* MDMemorandum.m in Sources */,
+				9A799DFC28C733000018AA73 /* MainTableViewController.m in Sources */,
 				9A67219728C5020800C48D6E /* AppDelegate.m in Sources */,
 				9A6721A828C5020A00C48D6E /* main.m in Sources */,
 				9A67219A28C5020800C48D6E /* SceneDelegate.m in Sources */,
+				9A6721D328C51E1400C48D6E /* MDListOfMemorandums.m in Sources */,
+				9AFD50A228C9E9F30062F1D9 /* MapViewController.m in Sources */,
+				9A2FF4E428C8A1B300B7011B /* UpdateMemorandumTableViewController.m in Sources */,
+				9A2FF4E128C88D2F00B7011B /* AddMemorandumTableViewController.m in Sources */,
+				9A11F9E428C9FF0900B832EA /* MDAddress+Annotation.m in Sources */,
+				9A18CE8C28C9FBF30053A3AD /* MDAddress.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
