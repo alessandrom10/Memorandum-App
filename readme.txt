@@ -1,4 +1,4 @@
--L’applicazione è il progetto 2 Memorandum sviluppato per iOS
+-L’applicazione è il progetto 2 Memorandum, sviluppato per iOS
 
 -L’applicazione sfrutta il pattern architetturale Model-view-controller, dove le classi nella cartella “Model” si occupano di gestire i dati dell’applicazione, i quali vengono poi passati ai vari View controller (uno per ogni schermata dell’applicazione) che li gestiscono per poi passarli alle View vere e proprie definite nello storyboard, che hanno lo scopo di rappresentare i dati
 
