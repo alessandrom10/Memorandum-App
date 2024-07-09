@@ -47,8 +47,8 @@
     [self.map setRegion:mapRegion animated:YES];
     self.map.showsUserLocation = YES;
     
-    [self.listOfMemorandums getElementAt:0].location.latitude = @(***REMOVED***);
-    [self.listOfMemorandums getElementAt:0].location.longitude = @(***REMOVED***);
+    [self.listOfMemorandums getElementAt:0].location.latitude = @(44.803611);
+    [self.listOfMemorandums getElementAt:0].location.longitude = @(10.317278);
         
     for(MDMemorandum* temp in self.listOfMemorandums.list) {
         [self.map addAnnotation:temp.location];
